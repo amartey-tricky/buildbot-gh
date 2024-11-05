@@ -67,7 +67,7 @@ export function Header() {
         }
       >
         {menu.map((item) => (
-          <Link key={item.name} href={item.url}>
+          <Link key={item.name} href={item.url} onClick={toggleMenu}>
             <span className="text-lg font-bold">{item.name}</span>
           </Link>
         ))}
