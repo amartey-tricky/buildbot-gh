@@ -1,4 +1,31 @@
 import { ArrowRight, Shield, TrendingUp, Briefcase, Building, Users, Home, Car, Heart } from "lucide-react";
+import type { Metadata } from "next";
+
+const title = "Services";
+const description = "Discover a range of financial services designed to help you achieve your financial goals.";
+
+export const metadata: Metadata = {
+  title: title,
+  description: description,
+  openGraph: {
+    title: title,
+    description: description,
+    url: "https://buildbotgh.com/services",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    site: "@buildbotgh",
+    creator: "@buildbotgh",
+    title: title,
+    description: description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    noimageindex: true,
+  }
+};
 
 interface ServiceCardProps {
   id: number;

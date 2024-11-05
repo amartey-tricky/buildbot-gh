@@ -1,4 +1,31 @@
 import { TrendingUp, Shield, PiggyBank, BarChart2, Umbrella, CheckCircle } from "lucide-react";
+import type { Metadata } from "next";
+
+const title = "Products";
+const description = "Discover a range of investment and insurance products designed to secure your financial future and help you achieve your goals.";
+
+export const metadata: Metadata = {
+  title: title,
+  description: description,
+  openGraph: {
+    title: title,
+    description: description,
+    url: "https://buildbotgh.com/products",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    site: "@buildbotgh",
+    creator: "@buildbotgh",
+    title: title,
+    description: description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    noimageindex: true,
+  }
+};
 
 interface ProductCardProps {
   title: string;

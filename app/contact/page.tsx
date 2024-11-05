@@ -22,6 +22,11 @@ export const metadata: Metadata = {
     title: title,
     description: description,
   },
+  robots: {
+    index: true,
+    follow: true,
+    noimageindex: true,
+  }
 };
 
 export default function Page() {

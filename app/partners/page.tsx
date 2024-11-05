@@ -1,5 +1,32 @@
 import { Users, Target, Send, Video, ArrowRight, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+const title = "Become a Buildbot Partner";
+const description = "Join our network of successful partners and build a sustainable income through referrals";
+
+export const metadata: Metadata = {
+  title: title,
+  description: description,
+  openGraph: {
+    title: title,
+    description: description,
+    url: "https://buildbotgh.com/partners",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    site: "@buildbotgh",
+    creator: "@buildbotgh",
+    title: title,
+    description: description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    noimageindex: true,
+  }
+};
 
 interface Step {
   icon: React.ReactNode;
