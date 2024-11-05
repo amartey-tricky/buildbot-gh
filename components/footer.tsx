@@ -41,14 +41,14 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center space-x-2">
                 <Phone size={16} />
-                <Link href="tel:" className="hover:text-orange-500">
-                  024 123 4567
+                <Link href="tel:0247802711" className="hover:text-orange-500">
+                  024 780 2711
                 </Link>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={16} />
-                <Link href="mailto:" className="hover:text-orange-500">
-                  hello@buildbot.com
+                <Link href="mailto:buildbotgh@gmail.com" className="hover:text-orange-500">
+                  buildbotgh@gmail.com
                 </Link>
               </li>
               <li className="flex items-center space-x-2">

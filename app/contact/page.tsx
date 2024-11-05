@@ -56,14 +56,14 @@ export default function Page() {
                   <Phone className="w-6 h-6 text-orange-500 mr-3 flex-shrink-0" />
                   <div>
                     <h3 className="text-lg font-semibold text-orange-800">Phone</h3>
-                    <p className="text-orange-700">+233 (123) 456-7890</p>
+                    <p className="text-orange-700">+233 (0)24 780 2711</p>
                   </div>
                 </div>
                 <div className="flex items-center bg-white p-4 rounded-lg shadow-sm">
                   <Mail className="w-6 h-6 text-orange-500 mr-3 flex-shrink-0" />
                   <div>
                     <h3 className="text-lg font-semibold text-orange-800">Email</h3>
-                    <p className="text-orange-700">info@financialhouse.com</p>
+                    <p className="text-orange-700">buildbotgh@gmail.com</p>
                   </div>
                 </div>
               </div>
