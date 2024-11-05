@@ -51,12 +51,12 @@ export function Header() {
           </button>
         </div>
         <div className="hidden lg:flex items-center justify-center">
-          <a
+          <Link
             href="/signup"
             className="inline-flex items-center justify-center px-8 py-4 border border-transparent rounded-md font-semibold text-white bg-orange-600 hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition-colors"
           >
             Sign Up
-          </a>
+          </Link>
         </div>
       </div>
       <nav
