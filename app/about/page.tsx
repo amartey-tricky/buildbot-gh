@@ -1,4 +1,18 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+const title: string = "About - Buildbot GH";
+const description: string = "Learn more about Buildbot GH";
+
+export const metadata: Metadata = {
+  title: title,
+  description: description,
+  robots: {
+    index: true,
+    follow: true,
+    noimageindex: true,
+  }
+}
 
 export default function Page() {
   const stats = [
