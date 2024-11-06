@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ViewTransitions } from "next-view-transitions";
+import { CldImage, CldOgImage } from "next-cloudinary";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -19,6 +20,9 @@ const geistMono = localFont({
 const title = "Biuldbot GH";
 const description =
   "We help you build a strong financial future with tailored investment strategies and comprehensive insurance solutions. Secure your wealth with our expert team.";
+
+<CldOgImage src="Logos/hfh7ltwxzt9usxi6aiok" width={1200} height={630} twitterTitle={title} alt={title} />;
+
 
 export const metadata: Metadata = {
   title: title,
